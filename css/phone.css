@@ -1,0 +1,95 @@
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    color: var(--theme-color-3);
+}
+
+#navbar ul li{
+    font-size: 15px;
+}
+
+#Home{
+    height:400px;
+    width:auto;
+    margin:auto;
+    position: relative;
+    padding:5px 5px;
+}
+
+#Home::before{
+    height:400px;
+}
+
+#Home h1{
+    font-size:2rem;
+}
+#Home p{
+    font-size:.7rem;
+}
+
+#services{
+    flex-direction: column;
+}
+#client-section{
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+#clients{
+    flex-wrap: wrap;
+    
+}
+#clients div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#clients div img{
+    height:100px;
+    width:100px;
+    padding: 5px;
+    margin:5px;
+    
+}
+
+#Contact form input,#Contact form textarea{
+    margin:5px;
+    border:2px solid black;
+    border-radius:5px;
+    font-size: .8rem;
+    padding:5px;
+    font-family: 'Outfit';
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+/* Utility classes */
+.h-primary {
+    font-size: 1.8rem;
+ 
+}
+
+.h-secondary {
+    font-size: 1rem;
+}
+
+
+.btn,#Contact .btn{
+    padding: 7px 15px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: .6rem;
+   
+}
